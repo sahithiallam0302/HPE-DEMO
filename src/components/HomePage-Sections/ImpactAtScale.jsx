@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion, useInView } from 'motion/react';
+import { motion, useInView } from 'framer-motion';
 import { GitMerge, Users, Layout, IndianRupee } from 'lucide-react';
 
 const AnimatedCounter = ({ end, prefix = "", suffix = "" }) => {
