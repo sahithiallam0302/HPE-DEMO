@@ -41,7 +41,7 @@ const Preloader = ({ onFinish }) => {
                 >
                     <video
                         ref={videoRef}
-                        src="/WhatsApp Video 2026-03-03 at 11.37.48 AM.mp4"
+                        src="/preloader_video.mp4"
                         autoPlay
                         muted
                         playsInline

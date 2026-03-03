@@ -52,7 +52,7 @@ function AppContent() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-[#011b26] flex flex-col transition-colors duration-300">
       {/* Preloader always renders on top; once done it unmounts */}
-      <Preloader onFinish={() => setIsPreloading(false)} />
+      {isPreloading && <Preloader onFinish={() => setIsPreloading(false)} />}
 
       {/* Hide everything else while the video is playing */}
       {!isPreloading && (
