@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 import { CheckCircle2, ShieldCheck, Zap, Globe2, Network } from 'lucide-react';
 
 const WhyChooseUs = () => {

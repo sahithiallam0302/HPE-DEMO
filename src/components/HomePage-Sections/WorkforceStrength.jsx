@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion, useInView } from 'motion/react';
-
+import { motion, useInView } from 'framer-motion';
 const CountUp = ({ value, color }) => {
     const [count, setCount] = useState(0);
     const ref = useRef(null);

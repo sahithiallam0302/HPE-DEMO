@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { ArrowLeft, ArrowRight, Briefcase } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 
 const ProjectPortfolio = () => {
     const scrollRef = useRef(null);

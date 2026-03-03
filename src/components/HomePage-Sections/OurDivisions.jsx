@@ -1,6 +1,6 @@
 import React from 'react';
 import { Monitor, Building2, HardHat, ArrowRight } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 
 // Animation variants
 const fadeIn = (direction = 'up', delay = 0) => ({

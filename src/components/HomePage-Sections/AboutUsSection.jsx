@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Globe, Zap, Target } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 import { useNavigate } from 'react-router-dom';
 
 // Animation variants
